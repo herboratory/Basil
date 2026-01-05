@@ -38,26 +38,57 @@ No installs. No config files. Just open the app and build.
 | JavaScript Object | ✅ | ✅ | ✅ |
 | Zod | ✅ (Pro) | ✅ (Pro) | ✅ (Pro) |
 | Yup | ✅ (Pro) | ✅ (Pro) | ✅ (Pro) |
-| TypeScript | ✅ (Pro) | ❌ | ✅ (Pro) |
-| Prisma | ✅ (Pro) | ❌ | ✅ (Pro) |
+| TypeScript | ✅ (Pro) | ✅ (Pro) | ✅ (Pro) |
+| Prisma | ✅ (Pro) | ✅ (Pro) | ✅ (Pro) |
 
 > **Guest users** can fully use JSON and JavaScript Object features.  
 > **Pro users** unlock all formats and advanced conversions.
 
 ---
 
-## 🔐 Access Model
+## 🧩 Field Type Support
 
-Basil uses a simple access model:
+| Field Type | JSON | JS Object | TypeScript | Zod | Yup | Prisma |
+|-----------|------|-----------|------------|-----|-----|--------|
+| String    | ✅   | ✅        | ✅         | ✅  | ✅  | ✅     |
+| Number    | ✅   | ✅        | ✅         | ✅  | ✅  | ✅     |
+| Boolean   | ✅   | ✅        | ✅         | ✅  | ✅  | ✅     |
+| Date      | ⚠️   | ⚠️        | ✅         | ✅  | ✅  | ✅     |
+| Object    | ✅   | ✅        | ✅         | ✅  | ✅  | ✅     |
+| Array     | ✅   | ✅        | ✅         | ✅  | ✅  | ✅     |
+| Enum      | ⚠️   | ⚠️        | ✅         | ✅  | ✅  | ✅     |
 
-- **Guest**
-  - JSON & JavaScript Object schemas
-  - Build, edit, import, export
+**Legend:**  
+✅ Full support  ⚠️ Limited support
+
+> **Note:**  
+> Limited support means the field type is represented using a compatible or simplified structure rather than a native primitive (e.g. `Date` or `Enum` in JSON).
+
+
+---
+
+## 🔐 Pricing & Access
+
+Basil is a web-based tool with a simple access model:
+
+- **Free (Guest)**
+  - JSON Schema
+  - JavaScript Object Schema
+  - Import / edit / export basic schemas
+
 - **Pro**
-  - Zod, Yup, TypeScript, Prisma
-  - Full conversion support
+  - Zod
+  - Yup
+  - TypeScript
+  - Prisma
+  - Advanced validation and export formats
 
-This allows you to try Basil freely before unlocking advanced workflows.
+Basil runs directly in the browser — no installation required.
+
+> Pro access is available via a monthly subscription.
+
+👉 For current pricing and subscription details, visit:  
+**https://basil.herboratory.ai**
 
 ---
 
