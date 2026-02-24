@@ -162,4 +162,4 @@ All rights are reserved. No part of this software may be copied, modified, distr
 
 ---
 
-Built with care by Herboratory 🌿
+Built with care by [Herboratory](https://herboratory.ai) 🌿
