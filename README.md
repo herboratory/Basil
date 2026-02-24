@@ -157,7 +157,7 @@ Feature requests and feedback are welcome, but the project intentionally priorit
 
 ## 📄 License
 
-Basil is proprietary software developed by **Herboratory**.  
+Bassanite is proprietary software developed by **Herboratory**.  
 All rights are reserved. No part of this software may be copied, modified, distributed, or used for commercial purposes without explicit written permission.
 
 ---
