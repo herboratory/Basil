@@ -97,15 +97,13 @@ Bassanite runs directly in the browser — no installation required.
 
 > Pro access is available via a monthly subscription.
 
-👉 For current pricing and subscription details, visit:  
-https:/bassanite.dev
+👉 For current pricing and subscription details, visit [here](https:/bassanite.dev).
 
 ---
 
 ## 🌐 Live App
 
-👉 **Bassanite Web App**  
-https://bassanite.dev
+👉 [**Bassanite Web App**](https://bassanite.dev)
 
 The web app itself is the product — no downloads or local setup required.
 
