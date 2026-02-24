@@ -98,7 +98,7 @@ Bassanite runs directly in the browser — no installation required.
 > Pro access is available via a monthly subscription.
 
 👉 For current pricing and subscription details, visit:  
-**https:/bassanite.dev**
+https:/bassanite.dev
 
 ---
 
