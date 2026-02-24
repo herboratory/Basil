@@ -1,21 +1,32 @@
-# Basil 🌿  
-*A multi-format schema builder & converter for modern JavaScript and database tooling.*
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/logo.png">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/logo-dark.png">
+    <img src="./assets/logo-dark.png" width="120" alt="Bassanite logo">
+  </picture>
+</p>
 
-Basil is a browser-based web app for creating, editing, and converting data schemas across multiple formats — all in one place.  
+<h1 align="center">Bassanite</h1>
+
+<p align="center">
+  Privacy-first multi-format schema builder
+</p>
+
+[Bassinate](https://bassanite.dev) is a browser-based web app for creating, editing, and converting data schemas across multiple formats — all in one place.  
 It is designed for developers who want **fast iteration**, **cross-tool consistency**, and **less friction** when working with schemas.
 
 ---
 
-## ✨ Why Basil?
+## ✨ Why Bassanite?
 
-Schema definitions often get duplicated, rewritten, or drift out of sync across tools like JSON, Zod, Yup, TypeScript, and Prisma.
+Schema definitions often get duplicated, rewritten, or drift out of sync across tools like JSON, JS Object, Zod, Yup, TypeScript, and Prisma. Bassanite enables developers to visually construct and transform data schemas across these formats.
 
-Basil helps you:
+Bassanite helps you:
 - Define a schema **once**
 - Convert it into the formats you need
 - Iterate quickly without juggling multiple tools or files
 
-No installs. No config files. Just open the app and build.
+No installs. No config files. All schema processing is performed locally within the browser. Just open the app and build.
 
 ---
 
@@ -68,8 +79,7 @@ No installs. No config files. Just open the app and build.
 ---
 
 ## 🔐 Pricing & Access
-
-Basil is a web-based tool with a simple access model:
+Bassanite is a web-based tool with a simple access model:
 
 - **Free (Guest)**
   - JSON Schema
@@ -83,19 +93,19 @@ Basil is a web-based tool with a simple access model:
   - Prisma
   - Advanced validation and export formats
 
-Basil runs directly in the browser — no installation required.
+Bassanite runs directly in the browser — no installation required.
 
 > Pro access is available via a monthly subscription.
 
 👉 For current pricing and subscription details, visit:  
-**https://basil.herboratory.ai**
+**https:/bassanite.dev**
 
 ---
 
 ## 🌐 Live App
 
-👉 **Basil Web App**  
-https://basil.herboratory.ai
+👉 **Bassanite Web App**  
+https://bassanite.dev
 
 The web app itself is the product — no downloads or local setup required.
 
@@ -108,13 +118,13 @@ The web app itself is the product — no downloads or local setup required.
 - **Minimal friction**: No setup, no downloads
 - **Progressive access**: Free core, paid advanced features
 
-Basil is intentionally focused — it does not try to replace your IDE or framework, only to remove friction around schemas.
+Bassanite is intentionally focused — it does not try to replace your IDE or framework, only to remove friction around schemas.
 
 ---
 
 ## 🔒 Privacy & Data
 
-- Basil runs primarily in the browser
+- Bassanite runs primarily in the browser
 - Your schemas remain yours
 - No intentional inspection or reuse of user data
 - You are responsible for backing up important schemas
@@ -136,13 +146,13 @@ See **Privacy & Terms** in the app for details.
 
 ## 📬 Contact
 
-For support, feedback, or collaboration inquiries, feel free to GitHub Pull Requests or Issues.
+For support, feedback, or collaboration inquiries, feel free to contact through email. Contact information can be found in the website.
 
 ---
 
 ## 🧭 Project Status
 
-Basil is actively developed and evolving.  
+Bassanite is actively developed and evolving.  
 Feature requests and feedback are welcome, but the project intentionally prioritizes **clarity and stability over feature bloat**.
 
 ---
