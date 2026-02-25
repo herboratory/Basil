@@ -35,9 +35,19 @@ No installs. No config files. All schema processing is performed locally within 
 - **Multi-format schema builder**
 - **Instant conversion** between formats
 - **Live preview & editable content**
+- **Serverless schema sharing** (Encode schemas directly in URLs)
 - **Guest / Pro access model**
 - **Runs entirely in the browser**
 - **No data lock-in**
+
+---
+
+## 🔗 Serverless Sharing & Collaboration
+
+Bassanite allows you to share complex schemas instantly without storing them in a database. When you click "Share", your entire schema is encoded directly into the URL anchor (`#share=...`).
+
+- **Zero Server Storage**: Shared data stays in the URL and never touches our servers.
+- **Cross-Tier Collaboration**: A Pro user can build a complex Zod or Prisma schema, generate a link, and a Free tier user can still open it to view the structure and test it in the Content Editor.
 
 ---
 
@@ -85,6 +95,7 @@ Bassanite is a web-based tool with a simple access model:
   - JSON Schema
   - JavaScript Object Schema
   - Import / edit / export basic schemas
+  - Open and view Free-level schemas shared via URL
 
 - **Pro**
   - Zod
@@ -92,6 +103,7 @@ Bassanite is a web-based tool with a simple access model:
   - TypeScript
   - Prisma
   - Advanced validation and export formats
+  - Open and view all level schemas shared via URL
 
 Bassanite runs directly in the browser — no installation required.
 
@@ -126,6 +138,7 @@ Bassanite is intentionally focused — it does not try to replace your IDE or fr
 - Your schemas remain yours
 - No intentional inspection or reuse of user data
 - You are responsible for backing up important schemas
+- Shared links are encoded entirely in the URL and are never saved to a database - No intentional inspection or reuse of user data
 
 See **Privacy & Terms** in the app for details.
 
